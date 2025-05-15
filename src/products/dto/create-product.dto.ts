@@ -11,5 +11,5 @@ export class CreateProductDto {
     })
     @IsPositive()
     @Type(() => Number)
-    public price: string;
+    public price: number;
 }
